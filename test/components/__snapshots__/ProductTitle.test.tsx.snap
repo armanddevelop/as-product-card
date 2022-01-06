@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Title component UT Show the right component with the title 1`] = `
+<div
+  className="productCard undefined"
+>
+  <span
+    className="productDescription hola"
+  >
+    coffee Mug-Card without image
+    3
+  </span>
+</div>
+`;

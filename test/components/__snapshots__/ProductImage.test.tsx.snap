@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product image component UT Test the image is no send to the component 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    className="productImg test"
+    src="https://alicha.jpg"
+    style={
+      Object {
+        "color": "green",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Product image component UT Test the image is send to the component 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    className="productImg test"
+    src="./coffee-mug.png"
+    style={
+      Object {
+        "color": "green",
+      }
+    }
+  />
+</div>
+`;

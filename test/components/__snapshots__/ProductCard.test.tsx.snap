@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Card component UT Test the product card component 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h1>
+    Product card
+  </h1>
+</div>
+`;
+
+exports[`Product Card component UT increaseBy UT 1`] = `
+<div
+  className="productCard undefined"
+>
+  <h1>
+    This is the value of
+  </h1>
+  <span>
+    0
+  </span>
+  <button
+    name="add-count"
+    onClick={[Function]}
+    value={1}
+  />
+</div>
+`;

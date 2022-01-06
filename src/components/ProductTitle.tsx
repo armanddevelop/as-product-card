@@ -1,4 +1,4 @@
-import React,{ CSSProperties, useContext } from "react";
+import React,{ CSSProperties, useContext} from "react";
 import { ProductContext } from "./ProductCard";
 import styles from "../styles/styles.module.css";
 export interface PropsProductTitle {
@@ -12,6 +12,6 @@ export const ProductTitle = ({title,className,style}:PropsProductTitle)=>{
   <span
     className={`${styles.productDescription} ${className}`}
     style={style}
-  >{product.title} {title}</span>)
+  >{product.title}{title}</span>)
 }
 export default ProductTitle;
